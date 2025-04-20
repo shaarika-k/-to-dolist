@@ -1,0 +1,99 @@
+body{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: small;
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.background-img {
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url(../todolist/image/outdoor-flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:40vh;
+    width:100%;
+}
+ul{
+    list-style-position: inside;
+    padding-left: 0%;
+    text-align: center;
+}
+li{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.header h4{
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size:25px;
+}
+.header {
+    display:flex;
+    align-items: center;
+    margin-left: 40%;
+    position: relative;
+    margin-top: -10%;
+    color:white;
+}
+.header span{
+    margin-left: 20%;
+}
+.input-container{
+    margin-left: 40%;
+    margin-top: 2%;
+}
+.input-container button{
+    height: 30px;
+    background-color:darkolivegreen;
+    outline: none;
+    border-style: none;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.input-container input{
+    width:250px;
+    height: 30px;
+    padding:5px;
+    outline: none;
+    border:2px solid darkolivegreen;
+    border-radius: 5px;
+}
+.input-container input:focus{
+    width:250px;
+    height: 30px;
+    padding: 5px;
+    border:2px solid darkolivegreen;
+    border-radius: 5px;
+    outline: none;
+}
+.task{
+    background-color: rgb(185, 207, 147);
+    width:310px;
+    padding: 10px;
+    margin-left: 40%;
+    margin-top: 2%;
+    border-radius: 5px;
+    box-shadow: 0 5px 20px grey;
+}
+#list-container li{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
