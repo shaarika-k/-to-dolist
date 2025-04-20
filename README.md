@@ -15,9 +15,10 @@ A simple and user-friendly To-Do List web application built using **HTML**, **CS
 
 ## 📸 Demo
 
-![Screenshot](![alt text](image.png))
+![Screenshot](![image](https://github.com/user-attachments/assets/44022a02-3937-4f04-bfa5-43c7c7607c3e)
+)
 
-Live Demo: [Click Here](https://yourusername.github.io/todolist) 
+Live Demo: [Click Here](https://github.com/shaarika-k/-to-dolist/tree/1c5b4a411d32f065d7a2d24d1d211128b5d8a607/todolist) 
 
 ---
 
@@ -34,5 +35,5 @@ Live Demo: [Click Here](https://yourusername.github.io/todolist)
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/todolist.git
+https://github.com/shaarika-k/-to-dolist/tree/1c5b4a411d32f065d7a2d24d1d211128b5d8a607/todolist
 cd todolist
